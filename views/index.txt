@@ -1,0 +1,21 @@
+<!-- <h3>HOME</h3> -->
+
+<div class="container segment">
+    <div class="row justify-content-md-center ">
+    </div>
+
+    <di class="row justify-content-md-center search">
+        <form action="artistSearch" method="GET">
+            <div class="form-group ">
+                <p>Hi, this is an app for searching artist with Spotify api</p>
+
+                <label for="exampleInputPassword1"></label>
+                <input type="text" name="artistSearch" class="form-control" id="" placeholder="" value="">
+                <br>
+
+                <button type="submit" class="btn btn-danger">Search for Artist</button>
+            </div>
+        </form>
+    </di>
+
+</div>
