@@ -1,8 +1,8 @@
-<div class="container">
-    <div class="row">
-      {{#each albums}}
-        {{> artistAlbumCard this}}
-      {{/each}}
-    </div>
+<div class="container py-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    {{#each albums}}
+    {{> artistAlbumCard this}}
+    {{/each}}
+  </div>
 
 </div>
