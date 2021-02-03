@@ -1,36 +1,29 @@
-<!-- <h3>HOME</h3> -->
+<div class="container h-100 ">
 
 
+  <di class="row h-100 justify-content-center align-items-center ">
+    <form action="artistSearch" method="GET">
+      <div class="form-group search">
+        <h1 class="ml11">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Search something </span>
+          </span>
+        </h1>
+        <p>Hi, this is an app for searching artist with Spotify api</p>
 
-<div class="form search">
+        <label for="exampleInputPassword1"></label>
+        <input type="text" name="artistSearch" class="form-control" id="" placeholder="" value="">
+        <br>
 
+        <button type="submit" class="btn btn-danger">Search for Artist</button>
+      </div>
+    </form>
+  </di>
 
-  <h1 class="ml11">
-    <span class="text-wrapper">
-      <span class="line line1"></span>
-      <span class="letters">Search something </span>
-    </span>
-  </h1>
-
-  <p>This is an app for searching artist with Spotify api</p>
-
-  <form action="/artistSearch" method="GET">
-
-    <div class="artistSearch">
-      <label for="exampleInputPassword1"></label>
-      <input type="text" name="artistSearch" class="form-control" id="artistSearch" placeholder="" value="">
-
-
-    </div>
-    <br>
-    <button type="submit" class="btn btn-danger">Search for Artist</button>
-  </form>
 </div>
-
+{{!-- animate letters --}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-
-
 <script>
   // Wrap every letter in a span
   var textWrapper = document.querySelector('.ml11 .letters');
